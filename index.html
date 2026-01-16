@@ -252,10 +252,25 @@
     </p>
 
     <!-- FORM -->
-    <form action="https://formspree.io/f/mzdddpre" method="POST" class="max-w-2xl mx-auto">
+     <!-- Contact Section -->
+<div id="contact"
+    class="w-full px-[12%] py-10 scroll-mt-20 bg-[url('./assets/footer-bg-color.png')] bg-no-repeat bg-[length:90%_auto] bg-center dark:bg-none">
+
+    <h4 class="text-center mb-2 text-lg font-Ovo">Connect with me</h4>
+    <h2 class="text-center text-5xl font-Ovo">Get in touch</h2>
+    <p class="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo">
+        I'd love to hear from you! If you have any questions, comments or feedback, please use the form below.
+    </p>
+
+    <!-- FORM -->
+    <form action="https://api.web3forms.com/submit" method="POST" class="max-w-2xl mx-auto">
+    
+
 
         <!-- Hidden Subject -->
-        <input type="hidden" name="_subject" value="New Portfolio Contact Message">
+         <input type="hidden" name="access_key" value="2161aaaf-203d-49a0-9db2-e978394dc5a5">
+        
+        
 
         <!-- Name & Email -->
         <div class="grid grid-cols-auto gap-6 mt-10 mb-8">
@@ -300,6 +315,7 @@
         </p>
 
     </form>
+</div>
 </div><script>
   const form = document.querySelector("form");
   const successMsg = document.getElementById("success-msg");
